@@ -5,17 +5,17 @@
     width: 260px;
     height:100%;
     z-index: 1000px;
-    background-color: #000;
+    background-color: var(--youtubeblack);
 }
 #main {
     max-width: 2000px;
     min-height: 100vh;
     margin: 0 auto;
     padding-left:260px;
-    background-color:#111;
+    background-color: var(--youtubeblack);
 }
 #footer{
     text-align:center;
-    background-color: #333;
+    background-color: var(--youtubeblack);
     padding:20px 20px 20px 260px;
 }

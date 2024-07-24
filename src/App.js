@@ -15,6 +15,7 @@ const App = () => {
   return (   
       <BrowserRouter>
         <Header></Header>
+        
         <Main>
           <Routes>
             <Route path='/' element={<Home />} />
@@ -24,6 +25,7 @@ const App = () => {
             <Route path='/*' element={<Not />}/>
           </Routes>
         </Main>
+
         <Footer></Footer>
       </BrowserRouter>
   );
