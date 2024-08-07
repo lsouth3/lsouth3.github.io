@@ -26,10 +26,6 @@ export const headerMenus = [
 
 export const searchKeyword = [
     {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
-    },
-    {
         title: "HTML",
         src: "/search/html"
     },
@@ -63,7 +59,7 @@ export const searchKeyword = [
     },
     {
         title: "portfolio",
-        src: "/search/React Portfolio"
+        src: "/search/ReactPortfolio"
     },
     {
         title: "music",
@@ -72,6 +68,16 @@ export const searchKeyword = [
 ];
 
 export const snsLink = [
+    {
+        title: "github",
+        url: "https://lsouth3.github.io/",
+        icon: <AiFillGithub />
+    },
+    {
+        title: "github",
+        url: "https://lsouth3.github.io/",
+        icon: <AiFillGithub />
+    },
     {
         title: "github",
         url: "https://lsouth3.github.io/",

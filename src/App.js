@@ -13,21 +13,21 @@ import Footer from './components/section/Footer'
 
 const App = () => {
   return (   
+    <>
       <BrowserRouter>
         <Header></Header>
-        
         <Main>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/today' element={<Today />} />
-            <Route path='/special' element={<Special />}/>
-            <Route path='/video/:videoID' element={<Video />}/>
-            <Route path='/*' element={<Not />}/>
-          </Routes>
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/today' element={<Today />} />
+              <Route path='/special' element={<Special />}/>
+              <Route path='/video/:videoID' element={<Video />}/>
+              <Route path='/*' element={<Not />}/>
+            </Routes>
         </Main>
-
         <Footer></Footer>
       </BrowserRouter>
+    </>
   );
 }
 
